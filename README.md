@@ -1,4 +1,7 @@
-# coding_challenge_V2
+# Path search algorithms
 
-Though the time is over,  after taking a break, I think it still worth to make a seperated better repo. In the first repo, I did not add any comments and exists small bugs. 
-This repo I added some comments and fixed the bugs, now it is stable. There are total 5 places I changed after the deadline, and I made a change note near the changed code.
+This is a simple path search algorithm for games like follows
+
+You make a decision for selecting a color for the teil which connects to the left up cell. The color options are the direct neighbor colors. And then change the entire teil to the selected color and repeat. The optimal solution will be the one with least steps.
+
+Here is one of the solution for this goal, it is similar to best first search algorithm.
